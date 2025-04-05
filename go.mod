@@ -5,7 +5,10 @@ go 1.24.1
 require (
 	github.com/gin-gonic/gin v1.10.0
 	github.com/go-playground/validator/v10 v10.25.0
+	github.com/rs/zerolog v1.34.0
 )
+
+require github.com/mattn/go-colorable v0.1.13 // indirect
 
 require (
 	github.com/bytedance/sonic v1.13.2 // indirect
